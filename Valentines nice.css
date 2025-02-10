@@ -1,0 +1,66 @@
+body{
+background-color: #FFC0CB;
+overflow: hidden;
+}
+
+.YES {
+	background-color: limegreen;
+	border: 1px;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+	text-shadow: 2px 2px 0px #7A7A7A;
+	color: white;
+}
+
+.NO {
+	background-color: red;
+	border: 1px;
+	border-radius: 5px;
+	text-shadow: 2px 2px 0px #7A7A7A;
+	color: white;
+}
+
+.love {
+	color: #FFFFFF;
+	text-shadow: 4px 3px 0px #7A7A7A;
+	color: #FFFFFF;
+	font-size: 69px;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+ 	padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 50px;
+}
+
+.button-container button {
+    margin-right: 10px; /* Adds space to the right of each button */
+}
+
+
+.YES:hover, .NO:hover {
+    opacity: 0.8;
+}
+
+
+img{
+	display: none;
+}
+
+.credits{
+	color: lightpink;
+	margin-top: 570px;
+	font-size: 50px;
+}
